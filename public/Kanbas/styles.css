@@ -12,4 +12,15 @@ body {
 .wd-float-left {
     float:left
 }
+.wd-flex-grow-1 {
+    flex-grow: 1;
+  }
+.wd-flex-row-container {
+display: flex;
+flex-direction: row;
+}
+
+.wd-stretch {
+    align-items: stretch;
+}
   

@@ -3,68 +3,199 @@
     <link rel="stylesheet" href="/Kanbas/styles.css" />
     <link rel="stylesheet" href="/Kanbas/Navigation/index.css" />
     <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css" />
+    <link href="/libs/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link href="/Kanbas/Dashboard/index.css" rel="stylesheet" />
   </head>
   <body>
-    <div class="wd-flex-column wd-float-left">
-      <ul class="wd-kanbas-navigation">
-        <li>
-          <a href="/Kanbas/Dashboard/screen.html">
-            <img
-              class="wd-kanbas-image-fit"
-              src="\images\northeastern-logo.png"
-          /></a>
-        </li>
-        <li>
-          <a href="/Kanbas/Account/Profile/screen.html">
-            <i class="fa fa-user-circle-o override-account"></i>Account</a
-          >
-        </li>
-        <li class="wd-active">
-          <a href="/Kanbas/Dashboard/screen.html">
-            <i class="fa fa-tachometer"></i>Dashboard</a
-          >
-        </li>
-        <li>
-          <a href="/Kanbas/Courses/Home/screen.html">
-            <i class="fa fa-book"></i>Courses</a
-          >
-        </li>
-        <li>
-          <a href="#"><i class="fa fa-calendar"></i>Calendar</a>
-        </li>
-        <li>
-          <a href="#">
-            <div class="wd-grid-row"><i class="fa fa-print"></i></div>
-            Inbox</a
-          >
-        </li>
-        <li>
-          <a href="#"><i class="fa fa-clock-o"></i>History</a>
-        </li>
-        <li>
-          <a href="#">
-            <div class="wd-grid-row">
-              <i class="fa fa-caret-square-o-right"></i>
+    <div class="wd-flex-row-container wd-stretch wd-full-height">
+      <div class="wd-flex-column wd-kanbas-navigation-div">
+        <ul class="wd-kanbas-navigation">
+          <li>
+            <a href="/Kanbas/Dashboard/screen.html">
+              <img
+                class="wd-kanbas-image-fit"
+                src="\images\northeastern-logo.png"
+            /></a>
+          </li>
+          <li>
+            <a href="/Kanbas/Account/Profile/screen.html">
+              <i class="fa fa-user-circle-o override-account"></i>Account</a
+            >
+          </li>
+          <li class="wd-active">
+            <a href="/Kanbas/Dashboard/screen.html">
+              <i class="fa fa-tachometer"></i>Dashboard</a
+            >
+          </li>
+          <li>
+            <a href="/Kanbas/Courses/Home/screen.html">
+              <i class="fa fa-book"></i>Courses</a
+            >
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-calendar"></i>Calendar</a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="wd-grid-row"><i class="fa fa-print"></i></div>
+              Inbox</a
+            >
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-clock-o"></i>History</a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="wd-grid-row">
+                <i class="fa fa-caret-square-o-right"></i>
+              </div>
+              Studio</a
+            >
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa fa-arrow-right"></i>
+              Commons</a
+            >
+          </li>
+          <li>
+            <a href="#">
+              <div class="wd-grid-row">
+                <i class="fa fa-question-circle-o"></i>
+              </div>
+              Help</a
+            >
+          </li>
+        </ul>
+        <ul class="wd-kanbas-navigation wd-full-height wd-flex-grow-1"></ul>
+      </div>
+      <div class="p-4 wd-flex-grow-1">
+        <h1>Dashboard</h1>
+        <hr />
+        <h2>Published Courses (7)</h2>
+        <hr />
+        <div class="row row-cols-auto">
+          <div class="wd-card-padding">
+            <div class="col wd-course-width card">
+              <img
+                src="/images/web-1.jpg"
+                class="card-img-top wd-card-height"
+              />
+              <div class="card-body">
+                <a
+                  class="card-title stretched-link wd-card-body-specs"
+                  href="/Kanbas/Courses/Home/screen.html"
+                >
+                  CS4550 Web Development
+                </a>
+                <p class="card-text">Sec-1 Spring 2024</p>
+              </div>
             </div>
-            Studio</a
-          >
-        </li>
-        <li>
-          <a href="#">
-            <i class="fa fa-arrow-right"></i>
-            Commons</a
-          >
-        </li>
-        <li>
-          <a href="#">
-            <div class="wd-grid-row">
-              <i class="fa fa-question-circle-o"></i>
+          </div>
+          <div class="wd-card-padding">
+            <div class="col wd-course-width card">
+              <img
+                src="/images/web-2.jpg"
+                class="card-img-top wd-card-height"
+              />
+              <div class="card-body">
+                <a
+                  class="card-title stretched-link wd-card-body-specs"
+                  href="/Kanbas/Courses/Home/screen.html"
+                >
+                  CS4551 Developing The Web
+                </a>
+                <p class="card-text">Sec-2 Spring 2024</p>
+              </div>
             </div>
-            Help</a
-          >
-        </li>
-      </ul>
-      <ul class="wd-kanbas-navigation wd-full-height wd-flex-grow-1"></ul>
+          </div>
+          <div class="wd-card-padding">
+            <div class="col wd-course-width card">
+              <img
+                src="/images/web-with-person.png"
+                class="card-img-top wd-card-height"
+              />
+              <div class="card-body">
+                <a
+                  class="card-title stretched-link wd-card-body-specs"
+                  href="/Kanbas/Courses/Home/screen.html"
+                >
+                  CS4552 Web Dev With Giles
+                </a>
+                <p class="card-text">Sec-1 Spring 2024</p>
+              </div>
+            </div>
+          </div>
+          <div class="wd-card-padding">
+            <div class="col wd-course-width card">
+              <img
+                src="/images/web-3.jpeg"
+                class="card-img-top wd-card-height"
+              />
+              <div class="card-body">
+                <a
+                  class="card-title stretched-link wd-card-body-specs"
+                  href="/Kanbas/Courses/Home/screen.html"
+                >
+                  CS4553 Website Implementation
+                </a>
+                <p class="card-text">Sec-3 Spring 2024</p>
+              </div>
+            </div>
+          </div>
+          <div class="wd-card-padding">
+            <div class="col wd-course-width card">
+              <img
+                src="/images/eng-3.png"
+                class="card-img-top wd-card-height"
+              />
+              <div class="card-body">
+                <a
+                  class="card-title stretched-link wd-card-body-specs"
+                  href="/Kanbas/Courses/Home/screen.html"
+                >
+                  ENGW1111 Easy English
+                </a>
+                <p class="card-text">Sec-2 Spring 2024</p>
+              </div>
+            </div>
+          </div>
+          <div class="wd-card-padding">
+            <div class="col wd-course-width card">
+              <img
+                src="/images/eng-2.avif"
+                class="card-img-top wd-card-height"
+              />
+              <div class="card-body">
+                <a
+                  class="card-title stretched-link wd-card-body-specs"
+                  href="/Kanbas/Courses/Home/screen.html"
+                >
+                  ENGW3333 Medium English
+                </a>
+                <p class="card-text">Sec-4 Spring 2024</p>
+              </div>
+            </div>
+          </div>
+          <div class="wd-card-padding">
+            <div class="col wd-course-width card">
+              <img
+                src="/images/eng-1.avif"
+                class="card-img-top wd-card-height"
+              />
+              <div class="card-body">
+                <a
+                  class="card-title stretched-link wd-card-body-specs"
+                  href="/Kanbas/Courses/Home/screen.html"
+                >
+                  ENGW9999 Extreme English
+                </a>
+                <p class="card-text">Sec-5 Spring 2024</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>

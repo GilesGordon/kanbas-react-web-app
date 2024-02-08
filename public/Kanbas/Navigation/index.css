@@ -44,12 +44,12 @@
 .wd-flex-column {
     display: flex;
     flex-direction: column;
-    height: 100%;
+    /* height: 100%; */
 }
 
-.wd-flex-grow-1 {
-    flex-grow: 1;
-  }
+.wd-kanbas-navigation-div {
+    width: 80px;
+}
   
 
   
