@@ -16,11 +16,22 @@ body {
     flex-grow: 1;
   }
 .wd-flex-row-container {
-display: flex;
-flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .wd-stretch {
     align-items: stretch;
 }
-  
+.wd-space-between {
+  justify-content: space-between;
+}
+
+.wd-flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.wd-justify-end {
+  justify-content: flex-end;
+}

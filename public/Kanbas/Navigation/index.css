@@ -5,6 +5,7 @@
     width: 80px;
     display: flex;
     flex-direction: column;
+    
 }
 .wd-kanbas-navigation li {
     padding-left: 10px;  
@@ -39,12 +40,6 @@
 .wd-kanbas-image-fit {
     width: 100%;
     height: 100%;
-}
-
-.wd-flex-column {
-    display: flex;
-    flex-direction: column;
-    /* height: 100%; */
 }
 
 .wd-kanbas-navigation-div {

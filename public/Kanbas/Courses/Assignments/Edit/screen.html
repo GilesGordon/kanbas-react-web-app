@@ -3,183 +3,177 @@
     <link rel="stylesheet" href="/Kanbas/styles.css" />
     <link rel="stylesheet" href="/Kanbas/Navigation/index.css" />
     <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css" />
+    <link href="/libs/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link href="/Kanbas/Dashboard/index.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/Kanbas/Courses/Navigation/index.css" />
   </head>
   <body>
-    <div class="wd-flex-column wd-float-left">
-      <ul class="wd-kanbas-navigation">
-        <li>
-          <a href="/Kanbas/Dashboard/screen.html">
-            <img
-              class="wd-kanbas-image-fit"
-              src="\images\northeastern-logo.png"
-          /></a>
-        </li>
-        <li>
-          <a href="/Kanbas/Account/Profile/screen.html">
-            <i class="fa fa-user-circle-o override-account"></i>Account</a
-          >
-        </li>
-        <li>
-          <a href="/Kanbas/Dashboard/screen.html">
-            <i class="fa fa-tachometer"></i>Dashboard</a
-          >
-        </li>
-        <li class="wd-active">
-          <a href="/Kanbas/Courses/Home/screen.html">
-            <i class="fa fa-book"></i>Courses</a
-          >
-        </li>
-        <li>
-          <a href="#"><i class="fa fa-calendar"></i>Calendar</a>
-        </li>
-        <li>
-          <a href="#">
-            <div class="wd-grid-row"><i class="fa fa-print"></i></div>
-            Inbox</a
-          >
-        </li>
-        <li>
-          <a href="#"><i class="fa fa-clock-o"></i>History</a>
-        </li>
-        <li>
-          <a href="#">
-            <div class="wd-grid-row">
-              <i class="fa fa-caret-square-o-right"></i>
-            </div>
-            Studio</a
-          >
-        </li>
-        <li>
-          <a href="#">
-            <i class="fa fa-arrow-right"></i>
-            Commons</a
-          >
-        </li>
-        <li>
-          <a href="#">
-            <div class="wd-grid-row">
-              <i class="fa fa-question-circle-o"></i>
-            </div>
-            Help</a
-          >
-        </li>
-      </ul>
-      <ul class="wd-kanbas-navigation wd-full-height wd-flex-grow-1"></ul>
-    </div>
-    <div class="wd-float-left">
-      <ul>
-        <li>
-          <a href="/Kanbas/Courses/Home/screen.html"> Home</a>
-        </li>
-        <li>
-          <a href="/Kanbas/Courses/Modules/screen.html"> Modules</a>
-        </li>
-        <li>
-          <a href="/Kanbas/Courses/Piazza/index.html"> Piazza</a>
-        </li>
-        <li><a href="#">Zoom Meetings</a></li>
-        <li>
-          <a href="/Kanbas/Courses/Assignments/screen.html"> Assignments</a>
-        </li>
-        <li><a href="#">Quizzes</a></li>
-        <li>
-          <a href="/Kanbas/Courses/Grades/screen.html"> Grades</a>
-        </li>
-        <li><a href="#">People</a></li>
-        <li><a href="#">Panopto Video</a></li>
-        <li><a href="#">Discussions</a></li>
-        <li><a href="#">Announcements</a></li>
-        <li><a href="#">Pages</a></li>
-        <li><a href="#">Files</a></li>
-        <li><a href="#">Rubrics</a></li>
-        <li><a href="#">Outcomes</a></li>
-        <li><a href="#">Collaborations</a></li>
-        <li><a href="#">Syllabus</a></li>
-        <li><a href="#">Settings</a></li>
-      </ul>
-    </div>
-    <div class="wd-float-left">
-      <select>
-        <option>SpeedGrader</option>
-      </select>
-      <h3>Assignment Name</h3>
-      <input type="text" /> <br /><br />
-      <textarea row="2" cols="25">
+    <div class="wd-flex-row-container wd-stretch wd-full-height">
+      <div class="wd-flex-column wd-float-left">
+        <ul class="wd-kanbas-navigation">
+          <li>
+            <a href="/Kanbas/Dashboard/screen.html">
+              <img
+                class="wd-kanbas-image-fit"
+                src="\images\northeastern-logo.png"
+            /></a>
+          </li>
+          <li>
+            <a href="/Kanbas/Account/Profile/screen.html">
+              <i class="fa fa-user-circle-o override-account"></i>Account</a
+            >
+          </li>
+          <li>
+            <a href="/Kanbas/Dashboard/screen.html">
+              <i class="fa fa-tachometer"></i>Dashboard</a
+            >
+          </li>
+          <li class="wd-active">
+            <a href="/Kanbas/Courses/Home/screen.html">
+              <i class="fa fa-book"></i>Courses</a
+            >
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-calendar"></i>Calendar</a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="wd-grid-row"><i class="fa fa-print"></i></div>
+              Inbox</a
+            >
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-clock-o"></i>History</a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="wd-grid-row">
+                <i class="fa fa-caret-square-o-right"></i>
+              </div>
+              Studio</a
+            >
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa fa-arrow-right"></i>
+              Commons</a
+            >
+          </li>
+          <li>
+            <a href="#">
+              <div class="wd-grid-row">
+                <i class="fa fa-question-circle-o"></i>
+              </div>
+              Help</a
+            >
+          </li>
+        </ul>
+        <ul class="wd-kanbas-navigation wd-full-height wd-flex-grow-1"></ul>
+      </div>
+      <div class="wd-float-left">
+        <ul class="wd-navigation">
+          <li>
+            <a href="/Kanbas/Courses/Home/screen.html"> Home</a>
+          </li>
+          <li><a href="#"> Modules</a></li>
+          <li><a href="#"> Piazza</a></li>
+          <li><a href="#">Zoom Meetings</a></li>
+          <li class="wd-active">
+            <a href="/Kanbas/Courses/Assignments/screen.html"> Assignments</a>
+          </li>
+          <li><a href="#">Quizzes</a></li>
+          <li><a href="/Kanbas/Courses/Grades/screen.html"> Grades</a></li>
+          <li><a href="#">People</a></li>
+        </ul>
+      </div>
+      <div class="wd-float-left">
+        <select>
+          <option>SpeedGrader</option>
+        </select>
+        <h3>Assignment Name</h3>
+        <input type="text" /> <br /><br />
+        <textarea row="2" cols="25">
       This is the assignment description
           </textarea
-      ><br /><br />
-      <label
-        >Points
+        ><br /><br />
+        <label
+          >Points
+          <br />
+          <input type="number" placeholder="100" /> </label
+        ><br /><br />
+        <label
+          >Assignment Group
+          <br />
+          <select>
+            <option>ASSIGNMENTS</option>
+            <option>QUIZZES</option>
+            <option>EXAMS</option>
+            <option>PROJECT</option>
+          </select> </label
+        ><br /><br />
+        <label
+          >Display Grade As
+          <br />
+          <select>
+            <option>Percentage</option>
+          </select> </label
+        ><br /><br />
+        <label
+          >Submission Type
+          <br />
+          <select>
+            <option>Online</option>
+          </select> </label
+        ><br /><br />
+        Online Entry Options
         <br />
-        <input type="number" placeholder="100" /> </label
-      ><br /><br />
-      <label
-        >Assignment Group
+        <label> <input type="checkbox" name="entry_option" /> Text Entry</label>
         <br />
-        <select>
-          <option>ASSIGNMENTS</option>
-          <option>QUIZZES</option>
-          <option>EXAMS</option>
-          <option>PROJECT</option>
-        </select> </label
-      ><br /><br />
-      <label
-        >Display Grade As
+        <label>
+          <input type="checkbox" name="entry_option" /> Website URL</label
+        >
         <br />
-        <select>
-          <option>Percentage</option>
-        </select> </label
-      ><br /><br />
-      <label
-        >Submission Type
+        <label>
+          <input type="checkbox" name="entry_option" /> Media Recordings</label
+        >
         <br />
-        <select>
-          <option>Online</option>
-        </select> </label
-      ><br /><br />
-      Online Entry Options
-      <br />
-      <label> <input type="checkbox" name="entry_option" /> Text Entry</label>
-      <br />
-      <label> <input type="checkbox" name="entry_option" /> Website URL</label>
-      <br />
-      <label>
-        <input type="checkbox" name="entry_option" /> Media Recordings</label
-      >
-      <br />
-      <label>
-        <input type="checkbox" name="entry_option" /> Student Annotation</label
-      >
-      <br />
-      <label> <input type="checkbox" name="entry_option" /> File Uploads</label>
-      <br /><br /><br />
-      Assign<br />
-      <label
-        >Assign to
+        <label>
+          <input type="checkbox" name="entry_option" /> Student
+          Annotation</label
+        >
         <br />
-        <input type="text" value="Everyone" />
-      </label>
-      <br /><br />
-      <label
-        >Due
-        <br />
-        <input type="date" />
-      </label>
-      <br /><br />
-      <label
-        >Available from
-        <br />
-        <input type="date" />
-      </label>
-      <br /><br />
-      <label
-        >Until
-        <br />
-        <input type="date" />
-      </label>
-      <br /><br />
-      <button type="button">Cancel</button>
-      <button type="button">Save</button>
+        <label>
+          <input type="checkbox" name="entry_option" /> File Uploads</label
+        >
+        <br /><br /><br />
+        Assign<br />
+        <label
+          >Assign to
+          <br />
+          <input type="text" value="Everyone" />
+        </label>
+        <br /><br />
+        <label
+          >Due
+          <br />
+          <input type="date" />
+        </label>
+        <br /><br />
+        <label
+          >Available from
+          <br />
+          <input type="date" />
+        </label>
+        <br /><br />
+        <label
+          >Until
+          <br />
+          <input type="date" />
+        </label>
+        <br /><br />
+        <button type="button">Cancel</button>
+        <button type="button">Save</button>
+      </div>
     </div>
   </body>
 </html>
