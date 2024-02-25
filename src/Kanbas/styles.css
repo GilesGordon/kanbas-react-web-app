@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  body * {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.wd-full-height {
+    height: 100%;
+}
+.wd-float-left {
+    float:left
+}
+.wd-flex-grow-1 {
+    flex-grow: 1;
+  }
+.wd-flex-row-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.wd-stretch {
+    align-items: stretch;
+}
+.wd-space-between {
+  justify-content: space-between;
+}
+
+.wd-flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.wd-justify-end {
+  justify-content: flex-end;
+}

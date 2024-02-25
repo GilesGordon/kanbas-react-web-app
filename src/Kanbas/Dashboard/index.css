@@ -1,0 +1,21 @@
+.wd-course-width {
+    width: 300px
+}
+
+.wd-col-width {
+    width: 400px
+}
+
+.wd-card-body-specs {
+    text-decoration: none; 
+    color: navy; 
+    font-weight: bold
+}
+
+.wd-card-height {
+    max-height: 150px
+}
+
+.wd-card-padding {
+    padding: 15px;
+}
