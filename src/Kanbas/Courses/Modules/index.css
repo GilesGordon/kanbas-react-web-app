@@ -30,3 +30,12 @@
 .wd-modules > li {
   margin-bottom: 20px;
 }
+
+.wd-topbar {
+  margin-bottom: 20px;
+}
+
+.wd-button-adjustments {
+  margin-left: 5px;
+  border-radius: 4px;
+}

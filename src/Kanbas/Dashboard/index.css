@@ -19,3 +19,8 @@
 .wd-card-padding {
     padding: 15px;
 }
+
+.card-body button {
+    z-index: 2;
+    position: relative;
+}
